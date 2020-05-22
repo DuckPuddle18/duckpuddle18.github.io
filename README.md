@@ -1,2 +1,3 @@
-# <p style="text-align: center;">my blog</p>
-## i am currently studying cybersecurity
+<p align="center">
+<h1> my blog </h1>
+</P>
