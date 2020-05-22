@@ -1,5 +1,5 @@
 <p align="center">
- <p font-size: 20px;> 
+ <p font-size: 90px;> 
 my blog
 </p>
 </p>
