@@ -1,2 +1,2 @@
 # myblog
-##i am currently studying cybersecurity
+## i am currently studying cybersecurity
