@@ -1,5 +1,5 @@
-h1 {
-  text-align: center;
-  font-size: 30px;
-}
-<h1> my blog </h1>  
+<p align="center">
+ <p font-size: 20px;> 
+my blog
+</p>
+</p>
