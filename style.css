@@ -9,9 +9,13 @@
   h2 {
        color: chartreuse;
   }
-  a:link, a:visited  {
+  a:link {
        color: white;
        text-size: 30px;
        text-align: center;
   }
-
+ a:visited {
+       color: white;
+       text-size: 30px;
+       text-align: center;
+}
