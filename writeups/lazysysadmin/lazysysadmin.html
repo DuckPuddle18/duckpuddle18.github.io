@@ -1,0 +1,55 @@
+<!DOCTYPE html> 
+<html>
+<head lang="en">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css">
+<style>
+body {background-color: black;}
+h2 {text-color: green}
+div.a {
+text-align: center;
+text-color: green;
+}
+</style>
+</head>
+<title>Welcome to my blog</title>
+<body>
+<h1> Writeups</h1>
+<ul class="nav">
+  <li><a href="C:\Users\kaleb\Desktop\tsdgba\reee.html">Home</a></li>
+  <li><a href="/about/">tutorials</a></li>
+  <li><a href="writeups">writeups</a></li>
+  </ul>
+<div class="a">
+<h1> LazySysadmin </h1>
+</div>
+<h2> first I started out with a nmap scan which revealed ports 22, 80, 445, 139, 3306, and 6667
+<br> <img src="nmap.PNG"> 
+<br> saw that port 80 was open and decided to check it out, but didn't find much
+<br> <img src="website.PNG"> 
+<br> after looking at the website, i checked the shares on the server
+<br><img src="SMB_shares.PNG"> 
+<br> mounted the share labeled "share$"
+<br><img src="mountingSMB.PNG"> 
+<br> saw there was a file labeled "deets.txt" which had a password in it
+<br><img src="password.PNG"> 
+<br> now that we have a password, all that we need is a user
+<br> decided to enumerate some more and chose to use enum4linux
+<br>
+<img src="enum4linux.PNG"> 
+<br> when the scan was finished, it gave me a user for "togie"
+<br> 
+<img src="user.PNG"> 
+<br> now that i have a user and a password, i tried logging into SSH which worked
+<br>
+<img src="togie login.PNG"> 
+<br> I had very limited commands so I decided to try some privilege escalation 
+<br><img src="privesc.PNG"> 
+<br> now that we got extra commands, I navigated to "/" and saw there was a folder labeled root
+<br> it wouldnt let me change directories into it so I changed its ownership to me using chown
+<br><img src="chown root.PNG"> 
+<br> now that I have ownership of that directory, I changed directories into it and was able to gain the flag
+<br> <img src="root.PNG"> 
+<br> SUCCESS!
+<br> I hope you enjoyed my writeup
+</h2>
