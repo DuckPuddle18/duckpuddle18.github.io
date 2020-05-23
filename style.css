@@ -9,7 +9,8 @@
   h2 {
        color: chartreuse;
   }
-  a  {
+  a:link, a:visited  {
+       color: white;
        text-size: 30px;
        text-align: center;
   }
