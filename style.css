@@ -3,11 +3,12 @@
   }
   h1   {
        color:  chartreuse;
-       text-size: 40px;
+       text-size: 30px;
        text-align: center;
   }
   h2 {
        color: chartreuse;
+       text-size: 30px;
   }
   a:link {
        color: chartreuse;
