@@ -10,12 +10,12 @@
        color: chartreuse;
   }
   a:link {
-       color: blue;
+       color: chartreuse;
        text-size: 30px;
        text-align: center;
   }
  a:visited {
-       color: blue;
+       color: chartreuse;
        text-size: 30px;
        text-align: center;
 }
