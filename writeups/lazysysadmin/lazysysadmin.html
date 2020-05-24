@@ -29,13 +29,13 @@ text-color: green;
 <br> saw that port 80 was open and decided to check it out, but didn't find much
 <br> <img src="website.PNG"> 
 <br>
-<br> after looking at the website, i checked the shares on the server
+<br> after looking at the website, i checked the shares on the server using smbclient
 <br><img src="SMB_shares.PNG"> 
 <br>
-<br> mounted the share labeled "share$"
+<br> I then mounted the share labeled "share$"
 <br><img src="mountingSMB.PNG"> 
 <br>
-<br> saw there was a file labeled "deets.txt" which had a password in it
+<br> noticed there was a file labeled "deets.txt" which had a password in it
 <br><img src="password.PNG">
 <br>
 <br> now that we have a password, all that we need is a user.
@@ -43,7 +43,7 @@ text-color: green;
 <br> decided to enumerate some more and chose to use enum4linux
 <br><img src="enum4linux.PNG"> 
 <br>
-<br> when the scan was finished, it gave me a user for "togie"
+<br> when the enum4linux scan was finished, it gave me a user for "togie"
 <br> <img src="user.PNG">
 <br>
 <br> now that i have a user and a password, i tried logging into SSH which worked
