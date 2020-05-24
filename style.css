@@ -21,7 +21,7 @@
        text-align: center;
 }
 .nav{
-    border:1px dotted #ccc;
+    border:1px dashed #ccc;
     border-width:1px 0;
     border-color: chartreuse;
     list-style:none;
